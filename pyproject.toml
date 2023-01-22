@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "business-card"
+version = "0.1.0"
+description = "This is my business card."
+authors = ["Igor Ferreira <iferreira.n01@gmail.com>"]
+readme = "README.md"
+packages = [{include = "business_card"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+blue = "^0.9.1"
+isort = "^5.11.4"
+mypy = "^0.991"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
