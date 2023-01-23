@@ -85,3 +85,8 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+.contact a:hover {
+    color: white;
+    background-color: #191919;
+}
