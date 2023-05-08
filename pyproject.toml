@@ -10,6 +10,7 @@ packages = [{include = "business_card"}]
 python = "^3.11"
 flask = "^2.2.2"
 python-dotenv = "^1.0.0"
+gunicorn = "^20.1.0"
 
 
 [tool.poetry.group.dev.dependencies]
